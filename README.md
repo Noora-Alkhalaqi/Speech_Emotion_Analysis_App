@@ -109,7 +109,3 @@ The model was trained with a specific `scikit-learn` version, so keep the versio
 - Analyze long recordings with a sliding window and show an emotion timeline.
 - Test on more natural speech and consider additional datasets such as MSP-Podcast.
 - Add batch audio analysis, emotion distribution charts, and exportable reports.
-
-## Author
-
-[Your Name] · [Course or program] · [Date]
