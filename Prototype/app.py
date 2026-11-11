@@ -1,8 +1,10 @@
 import streamlit as st
 import librosa
 import joblib
+from pathlib import Path
 
-model = joblib.load('emotion_model.pkl')
+MODEL_PATH = Path(__file__).parent / 'emotion_model.pkl'
+model = joblib.load(MODEL_PATH)
 
 emotion_names = {'ANG': 'Angry', 'DIS': 'Disgust', 'FEA': 'Fear',
                  'HAP': 'Happy', 'NEU': 'Neutral', 'SAD': 'Sad'}
